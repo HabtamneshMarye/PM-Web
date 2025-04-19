@@ -1,0 +1,323 @@
+body{
+    overflow: hidden;
+
+}
+
+.menu-page{
+display: flex;
+}
+.left-side{
+    background-image: url('images/menu-img.jpg');
+    background-repeat: no-repeat;
+    background-size: 88% 950px;
+    padding: 300px;
+    padding-bottom: 700px;
+    filter: brightness(0.6);
+    p{
+        color: white;
+        margin-left: 40px;
+        margin-top: 170px;
+        font-size: 35px;
+    }
+}
+h2{
+    font-size: 50px;
+    margin-left: 0px;
+    margin-top: -30px;
+    color: red;
+}
+#ankole-img{
+position: relative;
+margin-top: -400px;
+margin-left: 0px;
+width: 200px;
+}.naviagations{
+    position: relative;
+    display: flex;
+    border-style: solid;
+    width: 620px;
+    border-radius: 40px;
+    height: 60px;
+    color: white;
+    background-color: black;
+    border-color: rgb(10, 8, 8);
+    margin-top: 250px;
+    margin-left: -190px;
+    text-decoration: none;
+    i{
+        margin-left: 10px;
+        margin-top: 20px;
+        cursor: pointer;
+        color: white;
+    }
+}
+
+.main-navigation{
+    display: flex;
+    gap: 7%;
+    font-size: 15px;
+    margin-left: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+   a{
+    text-decoration: none;
+    color: white;
+   } 
+}
+.main-navigation a:hover{
+    color: grey;
+ 
+}
+#centered{
+  border-style: solid;
+  padding: 12px;
+  margin-left: -9px;
+  border-radius: 15px;
+  background-color: beige;
+  color: black;
+}
+
+.first-tab{
+    position: relative;
+    margin-left: 20px;
+    color: white;
+    cursor: pointer;
+  }
+
+.dropup {
+    display: none;
+    position: absolute;
+    bottom: 80px; /* Position it above the nav item */
+    left: 0;
+    background-color: #0e0d0d;
+    min-width: 210px;
+    z-index: 1;
+    padding-left: 2px;
+    border-style: solid;
+    border-radius: 9px;
+     border-color: black;
+  }
+
+.dropup a {
+    color: white;
+    padding: 8px 12px;
+    display: block;
+    text-decoration: none;
+    background-color: black;
+  }
+
+.dropup a:hover {
+    background-color: #757373;
+  }
+
+.first-tab:hover .dropup {
+    display: block;
+  }
+
+.second-tab{
+    position: relative;
+    margin-left: 20px;
+    color: white;
+    cursor: pointer;
+  }
+
+.dropup-2{
+    display: none;
+    position: absolute;
+    bottom: 70px;  
+    left: 0;
+    background-color: #f5efef;
+    min-width: 215px;
+    z-index: 1;
+    height: 260px;
+    border-radius: 9px;
+    padding-left: 15px;
+    color: black;
+ 
+}
+h4{
+  font-size: 18px;
+  }
+  h3{
+    font-size: 17px;
+    font-weight: lighter;
+  }
+  
+.dropup-2 p {
+    margin-top: -9px;
+    margin-left: -2px;
+    font-size: 15px;
+    color: black;
+    display: block;
+  }
+
+.dropup-2 a:hover {
+    background-color: #080808;
+  }
+
+  .second-tab:hover .dropup-2{
+    display: block;
+  }
+  .right-side{
+    overflow: scroll;
+    background-color: black;
+    border-style: solid;
+    width: 100%;
+    margin-left: -123px;
+    border-color: white;
+    border-width: thin;
+    height: 962px;
+  }
+  .top-navigation{
+    display: flex;
+    gap: 5%;
+    margin-left: 250px;
+    margin-top: 20px;
+    color: grey;
+    a{
+    text-decoration: none;
+    }
+  }
+  .top-navigation a{
+    color: grey;
+  }
+  .top-navigation a:hover{
+    color: rgb(160, 136, 32);
+  }
+  .description{
+    margin-top: 190px;
+    margin-left: 50px;
+p{
+    color: grey;
+}
+  }
+
+h6{
+    color: white;
+    font-size: 30px;
+}
+#colored{
+color: white;
+}
+.options{
+    margin-left: 50px;
+    display: flex;
+    gap: 2%;
+    color: rgb(247, 5, 5);
+    li{
+        margin-top: 16px;
+    }
+}
+.lists{
+
+    margin-left: 50px;
+    margin-top: 20px;
+    color: white;
+    display: flex;
+    gap: 70%;
+}
+
+.breakfast{
+    display: flex;
+p{
+    color: rgb(134, 132, 132);
+}
+}
+
+#ankole-sized{
+width: 90px;
+margin-left: 10px;
+margin-top: 40px;
+}
+.description-part{
+    color: white;
+  margin-top: 40px;
+  margin-left: 15px;
+}
+.para-sized-1{
+    margin-top: 85px;
+    margin-left: 115px;
+}
+.para-sized-2{
+    margin-top: 85px;
+    margin-left: 460px;
+}
+.para-sized-3{
+    margin-top: 85px;
+    margin-left: 115px;
+}
+.para-sized-4{
+    margin-top: 85px;
+    margin-left: 270px;
+}
+.para-sized-5{
+    margin-top: 85px;
+    margin-left: 330px;
+}
+.list-3{
+    h1{
+        margin-left: 50px;
+        margin-top: 40px;
+        color: white;
+    }
+}
+
+.foods{
+    display: flex;
+p{
+    color: rgb(134, 132, 132);
+}
+}
+
+#ankole-sized{
+width: 90px;
+margin-left: 10px;
+margin-top: 40px;
+}
+.description-part{
+    color: white;
+  margin-top: 40px;
+  margin-left: 15px;
+}
+
+.para-sized-6{
+    margin-top: 110px;
+    margin-left: 290px;
+}
+.para-sized-7{
+    margin-top: 85px;
+    margin-left: 55px;
+}
+.para-sized-8{
+    margin-top: 85px;
+    margin-left: 335px;
+}
+.para-sized-9{
+    margin-top: 85px;
+    margin-left: 139px;
+}
+.para-sized-10{
+    margin-top: 85px;
+    margin-left: 335px;
+}
+
+h1{
+    margin-top: 40px;
+    color: white;
+    margin-left: 50px;
+}
+
+#red-text{
+color: red;
+margin-left: 50px;
+}
+.lists-4{
+    margin-left: 50px;
+    margin-top: 20px;
+    color: white;
+    display: flex;
+    gap: 70%;
+    p{
+        color: white;
+    }
+}

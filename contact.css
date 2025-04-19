@@ -1,0 +1,201 @@
+body{
+    overflow: hidden;
+}
+
+.contacts{
+background-image: url('images/path.jpg');
+background-repeat: no-repeat;
+padding-left: 400px;
+background-size: 100% 949px;
+background-size: 100% 949px;
+padding-left: 900px;
+padding-bottom: 950px;
+filter: brightness(0.6);
+}
+#ankole-contact{
+    width: 200px;
+    margin-top: 40px;
+    margin-left: -90px;
+    
+}
+.contact-1{
+    border-style: solid;
+    width: 300px;
+    position: relative;
+    padding-left: 30px;
+    margin-top: -850px;
+    margin-left: 550px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border-color: rgb(252, 248, 248);
+    border-width: thin;
+    h4{
+    font-size: 20px;
+    }
+
+}
+.contact-2{
+    border-style: solid;
+    width: 300px;
+    position: relative;
+    padding-left: 40px;
+    font-size: 15px;
+    margin-top: -270px;
+    margin-left: 900px;
+    color: white;
+    font-weight: bold;
+    border-color: rgb(241, 235, 235);
+    border-width: thin;
+    h5{
+    font-size: 20px;
+    }
+}
+.social-media{
+    margin-top: -700px;
+    margin-left: 170vb;
+}
+
+#instagram{
+    position: relative;
+    width: 30px;
+    border-radius: 210px;
+    margin-left: 90px;
+}
+#facebook{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    border-radius: 210px;
+}
+
+#what-up{
+    position: relative;
+    width: 40px;
+    border-radius: 210px;
+    margin-left: 180vb;
+    margin-top: 83vb;
+    
+}
+
+.naviagations{
+    position: relative;
+    display: flex;
+    border-style: solid;
+    width: 640px;
+    border-radius: 40px;
+    height: 60px;
+    color: white;
+    background-color: black;
+    border-color: rgb(10, 8, 8);
+    margin-top: -40px;
+    margin-left: 550px;
+    text-decoration: none;
+    i{
+        margin-left: 10px;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+}
+
+.main-navigation{
+    display: flex;
+    gap: 7%;
+    font-size: 15px;
+    margin-left: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+   a{
+    text-decoration: none;
+    color: white;
+   } 
+}
+
+#centered{
+  border-style: solid;
+  padding: 12px;
+  margin-left: -9px;
+  border-radius: 15px;
+  background-color: beige;
+  color: black;
+}
+
+.first-tab{
+    position: relative;
+    margin-left: 20px;
+    color: white;
+    cursor: pointer;
+  }
+
+.dropup {
+    display: none;
+    position: absolute;
+    bottom: 80px; /* Position it above the nav item */
+    left: -15px;
+    min-width: 210px;
+    z-index: 1;
+    padding-left: 2px;
+    border-style: solid;
+    border-radius: 9px;
+     border-color: black;
+  }
+
+
+.dropup a {
+    color: white;
+    padding: 8px 12px;
+    display: block;
+    text-decoration: none;
+    background-color: black;
+  }
+
+.dropup a:hover {
+    background-color: #757373;
+  }
+
+.first-tab:hover .dropup {
+    display: block;
+  }
+
+.second-tab{
+    position: relative;
+    margin-left: 20px;
+    color: white;
+    cursor: pointer;
+  }
+
+.dropup-2{
+    display: none;
+    position: absolute;
+    bottom: 70px;  
+    left: 0;
+    background-color: #f5efef;
+    min-width: 215px;
+    z-index: 1;
+    border-radius: 9px;
+    padding-left: 15px;
+    color: black;
+}
+
+h4{
+  font-size: 18px;
+  }
+  
+  h3{
+    font-size: 17px;
+    font-weight: lighter;
+  }
+  
+.dropup-2 p {
+    color: black;
+    display: block;
+  }
+
+.dropup-2 a:hover {
+    background-color: #080808;
+  }
+
+  .second-tab:hover .dropup-2{
+    display: block;
+  }
+ 

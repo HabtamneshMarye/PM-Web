@@ -1,0 +1,384 @@
+.ankole-logo{
+  position: relative;
+  top: 35%;
+  left: 94%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  opacity: 0.8;
+  pointer-events: none;
+  }
+  
+.ankole-logo img{
+  width: 170px;
+  height: auto;
+}
+  
+body {
+  margin: 0;
+  margin-top: -300px;
+  font-family: sans-serif;
+  background-color: #ebe6e6;
+  }
+   
+.slideshow-container {
+  position: relative;
+  max-width: 90;
+  height: 130vb;
+  margin: auto;
+  overflow: hidden;
+  }
+
+#whats-up{
+  position: relative;
+  width: 40px;
+  margin-left: 180vb;
+  border-radius: 210px;
+  margin-top: -200px;
+}
+    
+.slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  animation: fadeAnimation 25s infinite;
+  }
+    
+.slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  }
+    
+.caption {
+  position: relative;
+  bottom: 100px;
+  left: 30px;
+  margin-top: -600px;
+  margin-left: -55px;
+  text-align: center;
+  color: gray;
+  font-size: 124px;
+  border-radius: 6px;
+  }
+    /* Animation delays for each slide */
+    .slide:nth-child(1) { animation-delay: 0s; }
+    .slide:nth-child(2) { animation-delay: 5s; }
+    .slide:nth-child(3) { animation-delay: 10s; }
+    .slide:nth-child(4) { animation-delay: 15s; }
+    .slide:nth-child(5) { animation-delay: 20s; }
+    
+@keyframes fadeAnimation {
+  0%   { opacity: 0; }
+  5%   { opacity: 1; }
+  20%  { opacity: 1; }
+  25%  { opacity: 0; }
+  100% { opacity: 0; }
+  }
+  
+.naviagations{
+  position: relative;
+  display: flex;
+  border-style: solid;
+  width: 690px;
+  border-radius: 40px;
+  height: 60px;
+  color: white;
+  background-color: black;
+  border-color: rgb(10, 8, 8);
+  margin-top: -120px;
+  margin-left: 550px;
+  text-decoration: none;
+  i{
+    margin-left: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+    }
+  }
+  
+.main-navigation{
+  display: flex;
+  gap: 7%;
+  font-size: 15px;
+  margin-left: 30px;
+  margin-top: 20px;
+  cursor: pointer;
+  a{
+    text-decoration: none;
+    color: white;
+    } 
+  }
+  
+  #centered{
+    border-style: solid;
+    padding: 12px;
+    margin-left: -9px;
+    border-radius: 15px;
+    background-color: beige;
+    color: black;
+  }
+  
+.first-tab{
+   position: relative;
+   margin-left: 20px;
+   color: white;
+   cursor: pointer;
+  }
+
+.dropup {
+    display: none;
+    position: absolute;
+    bottom: 80px; 
+    left: -15px;
+    background-color: #0e0d0d;
+    min-width: 210px;
+    z-index: 1;
+    padding-left: 2px;
+    border-style: solid;
+    border-radius: 9px;
+    border-color: black;
+  }
+  
+  .dropup a {
+      color: white;
+      padding: 8px 12px;
+      display: block;
+      text-decoration: none;
+      background-color: black;
+    }
+  
+  .dropup a:hover {
+      background-color: #757373;
+    }
+  
+  .first-tab:hover .dropup {
+      display: block;
+    }
+  
+  .second-tab{
+      position: relative;
+      margin-left: 20px;
+      color: white;
+      cursor: pointer;
+    }
+  
+  .dropup-2{
+      display: none;
+      position: absolute;
+      bottom: 70px;  
+      left: 0;
+      background-color: #f5efef;
+      min-width: 215px;
+      z-index: 1;
+      border-radius: 9px;
+      padding-left: 15px;
+      color: black;
+  }
+
+  h4{
+    font-size: 18px;
+    }
+
+  h3{
+      font-size: 17px;
+      font-weight: lighter;
+    }
+    
+  .dropup-2 p {
+      color: black;
+      display: block;
+    }
+  
+  .dropup-2 a:hover {
+      background-color: #080808;
+    }
+  
+    .second-tab:hover .dropup-2{
+      display: block;
+    }
+   @media screen and (max-width: 500px){
+
+.ankole-logo{
+  position: relative;
+  top: 35%;
+  left: 78%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+  opacity: 0.8;
+  pointer-events: none;
+}
+
+body {
+  margin: 0;
+  margin-top: -175px;
+  font-family: sans-serif;
+
+  }
+   
+.slideshow-container {
+  position: relative;
+  max-width: 90;
+  height: 130vb;
+  margin: auto;
+  overflow: hidden;
+  }
+  
+    
+.slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  animation: fadeAnimation 25s infinite;
+  }
+    
+.slide img {
+  width: 110%;
+  height: 100%;
+  object-fit: cover;
+  }
+    
+.caption {
+  position: relative;
+  bottom: 100px;
+  left: 30px;
+  margin-top: -500px;
+  margin-left: -55px;
+  text-align: center;
+  color: gray;
+  font-size: 70px;
+  border-radius: 6px;
+  }
+    /* Animation delays for each slide */
+    .slide:nth-child(1) { animation-delay: 0s; }
+    .slide:nth-child(2) { animation-delay: 5s; }
+    .slide:nth-child(3) { animation-delay: 10s; }
+    .slide:nth-child(4) { animation-delay: 15s; }
+    .slide:nth-child(5) { animation-delay: 20s; }
+    
+@keyframes fadeAnimation {
+  0%   { opacity: 0; }
+  5%   { opacity: 1; }
+  20%  { opacity: 1; }
+  25%  { opacity: 0; }
+  100% { opacity: 0; }
+  }
+  
+   .naviagations{
+    position: relative;
+    display: flex;
+    border-style: solid;
+    width: 320px;
+    border-radius: 40px;
+    height: 60px;
+    background-color: black;
+    border-color: rgb(10, 8, 8);
+    margin-top: -90px;
+    margin-left: 550px;
+    text-decoration: none;
+    i{
+      margin-left: -460px;
+     font-size: 30px;
+      margin-top: 20px;
+      cursor: pointer;
+      }
+    } 
+  
+
+  #centered{
+    border-style: solid;
+    padding: 15px;
+    margin-left: -820px;
+    border-radius: 15px;
+    background-color: beige;
+    color: black;
+  }
+  
+.first-tab{
+   position: relative;
+   margin-left: 20px;
+   color: white;
+   cursor: pointer;
+   i{
+ margin-left: -490px;
+ margin-top: 15px;
+   }
+  }
+
+.dropup {
+    display: none;
+    position: absolute;
+    bottom: 80px; 
+    left: -15px;
+    background-color: #0e0d0d;
+    min-width: 210px;
+    z-index: 1;
+    padding-left: 2px;
+    border-style: solid;
+    border-radius: 9px;
+    border-color: black;
+  }
+  
+  .dropup a {
+      color: white;
+      padding: 8px 12px;
+      display: block;
+      text-decoration: none;
+      background-color: black;
+    }
+  
+  .dropup a:hover {
+      background-color: #757373;
+    }
+  
+  .first-tab:hover .dropup {
+      display: block;
+    }
+  
+  .second-tab{
+      position: relative;
+      margin-left: 20px;
+      color: white;
+      cursor: pointer;
+      i{
+   
+        margin-top: 16px;
+          }
+    }
+  
+  .dropup-2{
+      display: none;
+      position: absolute;
+      bottom: 70px;  
+      left: 0;
+      background-color: #f5efef;
+      min-width: 215px;
+      z-index: 1;
+      border-radius: 9px;
+      padding-left: 15px;
+      color: black;
+  }
+
+  h4{
+    font-size: 18px;
+    }
+
+  h3{
+      font-size: 17px;
+      font-weight: lighter;
+    }
+    
+  .dropup-2 p {
+      color: black;
+      display: block;
+    }
+  
+  .dropup-2 a:hover {
+      background-color: #080808;
+    }
+  
+    .second-tab:hover .dropup-2{
+      display: block;
+    }
+
+   }

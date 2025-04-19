@@ -1,0 +1,185 @@
+.review-page{
+    background-color: black;
+    height: 950px;
+    p{
+        position: relative;
+        color: white;
+        text-align: center;
+        font-size: 40px;
+        margin-left: -9px;
+    }
+    }
+    
+    #ankole-review{
+    margin-left: 45%;
+    width: 160px;
+    margin-top: 80px;
+    }
+    .quotation{
+        display: block;
+        margin-left: 500px;
+    }
+    .text-review{
+       p{
+        font-size: 15px;
+        margin-left: -500px;
+        margin-top: 30px;
+       }
+    }
+    .quotation-1{
+    font-size: 40px;
+    margin-left: 30px;
+    }
+    .quotation-2{
+        font-size: 40px;
+        margin-left: 780px;
+      margin-top: -20px;
+        
+        }
+    
+    .arrows-1{
+     margin-top: -180px;
+     margin-left: 25px;
+     font-size: 30px;
+     cursor: pointer;
+         }
+    .arrows-2{
+    margin-left: 780px;
+    margin-top: -35px;
+    font-size: 30px;
+    cursor: pointer;
+               }
+               
+               .naviagations{
+                position: relative;
+                display: flex;
+                border-style: solid;
+                width: 650px;
+                border-radius: 40px;
+                height: 60px;
+                color: white;
+                background-color: black;
+                border-color: rgb(10, 8, 8);
+                margin-top: -90px;
+                margin-left: 570px;
+                text-decoration: none;
+                i{
+                    margin-left: 10px;
+                    margin-top: 20px;
+                    cursor: pointer;
+                }
+            }
+            
+            .main-navigation{
+                display: flex;
+                gap: 7%;
+                font-size: 15px;
+                margin-left: 30px;
+                margin-top: 20px;
+                cursor: pointer;
+               a{
+                text-decoration: none;
+                color: white;
+               } 
+            }
+            
+            #centered{
+            
+              border-style: solid;
+              padding: 12px;
+            
+              margin-left: -9px;
+              border-radius: 15px;
+              background-color: beige;
+              color: black;
+            }
+            
+            .first-tab{
+                position: relative;
+                margin-left: 20px;
+                color: white;
+                cursor: pointer;
+              }
+            
+            .dropup {
+                display: none;
+                position: absolute;
+                bottom: 80px; 
+                left: -15px;
+                background-color: #0e0d0d;
+                min-width: 210px;
+                z-index: 1;
+                padding-left: 2px;
+                border-style: solid;
+                border-radius: 9px;
+                 border-color: black;
+              }
+            
+            .dropup a {
+                color: white;
+                padding: 8px 12px;
+                display: block;
+                text-decoration: none;
+                background-color: black;
+              }
+            
+            .dropup a:hover {
+                background-color: #757373;
+              }
+            
+            .first-tab:hover .dropup {
+                display: block;
+              }
+            
+            .second-tab{
+                position: relative;
+                margin-left: 20px;
+                color: white;
+                cursor: pointer;
+              }
+            
+            .dropup-2{
+                display: none;
+                position: absolute;
+                bottom: 70px;  
+                left: 0;
+                background-color: #f5efef;
+                min-width: 215px;
+                z-index: 1;
+                border-radius: 9px;
+                padding-left: 15px;
+                color: black;
+             
+            }
+            h4{
+              font-size: 18px;
+              }
+              h3{
+                font-size: 17px;
+                font-weight: lighter;
+              }
+              
+            .dropup-2 p {
+                color: black;
+                display: block;
+              }
+            
+            .dropup-2 a:hover {
+                background-color: #080808;
+              }
+            
+              .second-tab:hover .dropup-2{
+                display: block;
+              }
+              
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
